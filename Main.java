@@ -1,3 +1,7 @@
+package org.odev10;
+
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -21,7 +25,7 @@ public class Main {
         strGeneric1.setContent("Hello World!");
         strGeneric1.yazGeneric();
 
-        strGeneric1.ayrac();
+        strGeneric1.printSepatator();
 
         Koleksiyon koleksiyon = new Koleksiyon();
 
